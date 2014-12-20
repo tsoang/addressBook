@@ -11,6 +11,17 @@ There's a AddressBookManager single to manage the address book retrieval and par
 
 
 -------------------
+Features Completed: 
+1. An initial pulled from random user.me to get random contacts to display. 
+2. A table view of all the contacts
+3. The contacts are sorted alphabetically with an index on the right hand side of the table view. 
+4. A detailed view of any particular contact. 
+5. A retry feature it encounters an error message while retrieving the users from the server. 
+6. A universal app that works on both iPhone and iPad for both portrait and landscape orientation that resize properly. 
+
+
+
+-------------------
 Requirements:
 1. The project is written Xcode 6.1.1. Please use 6.1.1 or newer to open the project. 
 2. The source code is written in Objective-C
