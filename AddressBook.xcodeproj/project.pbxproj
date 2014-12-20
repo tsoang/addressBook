@@ -12,7 +12,6 @@
 		779151BA1A40918D002C03E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 779151B91A40918D002C03E5 /* AppDelegate.m */; };
 		779151C01A40918D002C03E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779151BE1A40918D002C03E5 /* Main.storyboard */; };
 		779151C21A40918D002C03E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779151C11A40918D002C03E5 /* Images.xcassets */; };
-		779151C51A40918D002C03E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779151C31A40918D002C03E5 /* LaunchScreen.xib */; };
 		779151D11A40918D002C03E5 /* AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 779151D01A40918D002C03E5 /* AddressBookTests.m */; };
 		779151E71A40B730002C03E5 /* AddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 779151E61A40B730002C03E5 /* AddressBookManager.m */; };
 		779151EA1A40BC72002C03E5 /* ContactListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 779151E91A40BC72002C03E5 /* ContactListTVC.m */; };
@@ -38,7 +37,6 @@
 		779151B91A40918D002C03E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		779151BF1A40918D002C03E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		779151C11A40918D002C03E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		779151C41A40918D002C03E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		779151CA1A40918D002C03E5 /* AddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		779151CF1A40918D002C03E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		779151D01A40918D002C03E5 /* AddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookTests.m; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 				779151E81A40BC72002C03E5 /* ContactListTVC.h */,
 				779151E91A40BC72002C03E5 /* ContactListTVC.m */,
 				779151C11A40918D002C03E5 /* Images.xcassets */,
-				779151C31A40918D002C03E5 /* LaunchScreen.xib */,
 				779151BE1A40918D002C03E5 /* Main.storyboard */,
 				779151B41A40918D002C03E5 /* Supporting Files */,
 			);
@@ -211,7 +208,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				779151C01A40918D002C03E5 /* Main.storyboard in Resources */,
-				779151C51A40918D002C03E5 /* LaunchScreen.xib in Resources */,
 				779151C21A40918D002C03E5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,14 +259,6 @@
 				779151BF1A40918D002C03E5 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		779151C31A40918D002C03E5 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				779151C41A40918D002C03E5 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
