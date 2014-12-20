@@ -1,4 +1,16 @@
 -------------------
+Overall Approach: 
+The objective is to write an address book application and pull random users from the server to display as a demo app. I modelled this app's UI and UX after the native iPhone Contacts app using native GUI components. 
+
+Because the simplicity of this demo app, there's no need to use third-party libraries. I chose to use all native frameworks including the network connection. 
+
+I used the Storyboard to create the user interface and created one view controller for each screen in the Storyboard. 
+
+There's a AddressBookManager single to manage the address book retrieval and parsing of the data.
+
+
+
+-------------------
 Requirements:
 1. The project is written Xcode 6.1.1. Please use 6.1.1 or newer to open the project. 
 2. The source code is written in Objective-C
