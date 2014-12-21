@@ -22,6 +22,24 @@ Features Completed:
 
 
 -------------------
+Nice to have features:
+1. Locally store the downloaded contacts (4 hr)
+2. Edit contact info (1 hr)
+3. Sort by last name (0.5 hr)
+4. Search (2 hr)
+5. Server control configuration parameters for the app such the number of contacts, contact server end point URL, etc. (2 hr)
+6. Localization (0.5 hr)
+
+
+
+-------------------
+Features to make it more robust: 
+1. Automatic retry upon connection error for up to a configurable number of times. 
+2. Listen to the network connect when it couldn't connect to the Internet to reconnect automatically when the network is available. 
+
+
+
+-------------------
 Requirements:
 1. The project is written Xcode 6.1.1. Please use 6.1.1 or newer to open the project. 
 2. The source code is written in Objective-C
