@@ -59,5 +59,14 @@ Running instruction:
 
 
 -------------------
+Running instruction for test cases:
+1. Go to the root folder and open “AddressBook.xcodeproj” in Xcode 6.1.1
+2. Select a desire simulator from the menu at the top. 
+3. Click "Product -> Test" to run the app in the simulator. 
+Note: Performance measuring tests always report failure on the first run and until a baseline value is set on a particular device configuration.
+
+
+
+-------------------
 Notes: 
 1. Sometimes the server randomuser.me returns an error message sporadically. It’s not a problem from the address book application. 
