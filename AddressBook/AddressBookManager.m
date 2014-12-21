@@ -32,7 +32,7 @@ static NSString * const kErrorDomainServer = @"Server";
 
 #pragma mark -
 /*****************************
- * A singleton class to manage the address book retreival and parsing of the data.
+ * A singleton class to manage the address book retrieval and parsing of the data.
  *****************************/
 @implementation AddressBookManager
 #pragma mark - Class Methods
